@@ -6,10 +6,11 @@
     <title>Login</title>
     <link rel="shortcut icon" href="imagens/moeda.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/alerta.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <?php require_once('alert.php'); ?>
+    <?php require_once('alerta/alert.php'); ?>
     <main class="container-fluid">
         <section class="row justify-content-center linha_login">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">

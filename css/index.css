@@ -1,12 +1,3 @@
-body{
-    background-image: url('../imagens/background.jpg');
-    background-size:  100%;
-}
-@media(max-width: 548px){
-    body{
-        background-size: 1000px; 
-    }
-}
 .linha_login{
     margin-top: 50px;
     text-align: center;
