@@ -1,4 +1,11 @@
 <nav>
+    <aside class="clLoof">
+        <section>
+            <h4>Deseja Fazer Logoff?</h4>
+            <button>Sim</button>
+            <button>Não</button>
+        </section>
+    </aside>
     <section>
         <img src="../imagens/logo.png" height="50px">
     </section>
