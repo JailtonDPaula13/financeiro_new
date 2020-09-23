@@ -6,7 +6,7 @@
             <button>Não</button>
         </section>
     </aside>
-    <section>
+    <section id="idSessaoMenu">
         <img src="../imagens/logo.png" height="50px">
     </section>
     <section id="idIdentificacao">
