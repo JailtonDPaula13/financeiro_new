@@ -36,26 +36,26 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <form>
+          <form id="idFormCadastro">
           <div class="modal-body">
-            <p>
+            <p id="alertaCadastro">
                 <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-award" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l-1.51-.229L8 1.126l-1.355.702-1.51.229-.684 1.365-1.086 1.072L3.614 6l-.25 1.506 1.087 1.072.684 1.365 1.51.229L8 10.874l1.356-.702 1.509-.229.684-1.365 1.086-1.072L12.387 6l.248-1.506-1.086-1.072-.684-1.365z"/>
                   <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
                 </svg>
                 Compra cadastrada
             </p>
-            <label>Valor R$:</label>
-            <input type="number" placeholder="1,00" name="nmMoney" required stpe="0.05"><br>
-            <label>Compra:</label>
-            <input type="text" placeholder="almoço" name="nmAlmoço" required maxlength="30"><br>
-            <label>Local:</label>
-            <input type="text" placeholder="Cometa Supermercado" name="nmLocal" required maxlength="30"><br>
-            <label>Data:</label>
-            <input type="date" name="nmData" required><br>
-            <label class="clLabelPesquisa">Quantidade:</label>
-            <input type="number" name="nmQuantidade" required value="1">
-            <label>Tipo:</label>
+            <label class="clLableCadastro">Valor R$:</label>
+            <label class="clLableCadastro">Quantidade:</label>
+            <input type="number" placeholder="1,00" name="nmMoney" required step="0.05">
+            <input type="number" name="nmQuantidade" required step="1" value="1">
+            <label class="clLableCadastro">Compra:</label>
+            <label class="clLableCadastro">Local:</label>
+            <input type="text" placeholder="almoço" name="nmAlmoço" required maxlength="30">
+            <input type="text" placeholder="Cometa Supermercado" name="nmLocal" required maxlength="30">
+            <label class="clLableCadastro">Data:</label>
+            <label class="clLableCadastro">Tipo:</label>
+            <input type="date" name="nmData" required>
             <select name="nmTipo">
                 <option value="0">Outros</option>
                 <option value="1">Comida</option>
@@ -66,7 +66,7 @@
                 <option value="6">Lazer</option>
                 <option value="7">Investimento</option>
             </select><br>
-            <label>Observaçõa:</label>
+            <label class="clLableCadastro clLabelEnd">Observaçõa:</label>
             <textarea></textarea>
           </div>
           <div class="modal-footer">
@@ -74,6 +74,20 @@
             <button type="button" class="btn btn-primary">Cadastrar</button>
           </div>
           </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modalDelete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+              <p>Deseja Excluir o(s) Iten(s) Selecionado(s)?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+            <button type="button" class="btn btn-primary">Sim</button>
+          </div>
         </div>
       </div>
     </div>
@@ -120,7 +134,7 @@
             </button>
             </div>
             <div>
-            <button>
+            <button type="button" data-toggle="modal" data-target="#modalDelete">
                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z"/>
                 </svg>
