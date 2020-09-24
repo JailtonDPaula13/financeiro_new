@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="../css/despesas_debito.css">
 </head>
 <body>
-    <?php require_once('../alerta/alert.php'); ?>
-    <?php require_once('../navbar.php'); ?>
-    <?php require_once('../guia.php'); ?>
+    <?php
+          $caminho[] = "<a href='#'> Despesas Débito </a>";
+          require_once('../alerta/alert.php');
+          require_once('../navbar.php'); 
+          require_once('../guia.php');
+    ?>
     <header>
         <section>
             <h1>Despesas Débito</h1>
@@ -117,7 +120,7 @@
                       <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
                     </svg>
                 </button>
-                <button type="submit">
+                <button type="button">
                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-clockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
                       <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
