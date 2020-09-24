@@ -6,7 +6,11 @@ body{
     body{
         background-size: 1100px 1100px; 
     }
-}   
+}
+@font-face{
+    src:         url('../fonts/Kalam-Bold.ttf');
+    font-family: padrao;
+}
 /*==========================================================*/
 /*==========================================================*/
 aside{
@@ -99,9 +103,16 @@ nav{
 /*==========================================================*/
 #divGuia{
     width:   100%;
-    padding: 10px;
+    background: rgba(0,0,0,0.1);
 }
-#divGuia p{
-    display: inline-block;
+#divGuia>*:not(svg){
+  padding: 0 5px;
+  display: inline-block;
+  margin:  5px 0;
+}
+#divGuia>a>p{
+    margin: 0;
+}
+#divGuia>p{
     cursor:  pointer;
 }
