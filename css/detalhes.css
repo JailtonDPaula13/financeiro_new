@@ -2,6 +2,17 @@ main{
     display:         flex;
     justify-content: center;
 }
+#idSection{
+    width:       100%;
+    text-align:  center;
+    font-family: padrao;
+    margin-top:  10px;
+}
+#idSection>h3{ 
+    color:     #000;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
 main>section{
     flex-basis:    80%;
     background:    #45a1bf;
@@ -10,7 +21,7 @@ main>section{
     padding:       10px;
     font-family:   padraoDois;
     font-size:     1.5em;
-/*    text-align:  center;*/
+    text-align:    left;
 }
 label{
     color:       #fff;
@@ -20,25 +31,69 @@ input, select, textarea{
     border:        none;
     margin:        5px 0 5px 5px;
     padding:       0 5px;
-    width:         30%;
+    width:         80%;
 }
 input[type=number]{
-    width: 10%;
+    width: 30%;
 }
 input[type=date]{
-    width: 15%;
+    width: 50%;
 }
 svg[id=Capa_1]{
     height: 1.6em;
     color:#fff;
 }
-svg{
+form svg{
     color:#fff;
 }
-@media(max-width: 548px){
+fieldset{
+    display: inline-block;
+    width: 49%;
+}
+fieldset:nth-last-child(1){
+    width:         100%;
+}
+textarea{
+    width:     95%;
+    font-size: 0.8em;
+    padding:   5px;
+}
+fieldset>button{
+    border:        none;
+    border-radius: 4px;
+    color:         #fff;
+}
+fieldset>button:nth-child(2){background: green;}
+fieldset>button:nth-child(2):hover{background: #00c200; box-shadow: 0 0 10px #000;}
+fieldset>button:nth-child(3){background: #b00512;}
+fieldset>button:nth-child(3):hover{background: red; box-shadow: 0 0 10px #000;}
+@media(max-width: 768px){
     main>section{
         flex-basis: 95%;
     }
-    
+    fieldset{
+        width: 100%;
+    }
+    input[type=number]{
+        width: 50%;
+    }
 }
-    
+.modal-body{
+    text-align: center;
+}
+.modal-footer>button:nth-child(2){
+    background: green;
+    border:     none;
+}
+.modal-footer>button:nth-child(2):hover{
+    background: #00c200;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.modal-footer>button:nth-child(1){
+    background: #b00512;
+    border:     none;
+}
+.modal-footer>button:nth-child(1):hover{
+   background: red;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
