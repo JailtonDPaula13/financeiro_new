@@ -11,6 +11,10 @@ body{
     src:         url('../fonts/Kalam-Bold.ttf');
     font-family: padrao;
 }
+@font-face{
+    src:         url('../fonts/Oswald-VariableFont_wght.ttf');
+    font-family: padraoDois;
+}
 /*==========================================================*/
 /*==========================================================*/
 aside{

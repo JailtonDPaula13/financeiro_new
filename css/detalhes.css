@@ -1,0 +1,44 @@
+main{
+    display:         flex;
+    justify-content: center;
+}
+main>section{
+    flex-basis:    80%;
+    background:    #45a1bf;
+    border-radius: 4px;
+    margin-top:    20px;
+    padding:       10px;
+    font-family:   padraoDois;
+    font-size:     1.5em;
+/*    text-align:  center;*/
+}
+label{
+    color:       #fff;
+}
+input, select, textarea{
+    border-radius: 4px;
+    border:        none;
+    margin:        5px 0 5px 5px;
+    padding:       0 5px;
+    width:         30%;
+}
+input[type=number]{
+    width: 10%;
+}
+input[type=date]{
+    width: 15%;
+}
+svg[id=Capa_1]{
+    height: 1.6em;
+    color:#fff;
+}
+svg{
+    color:#fff;
+}
+@media(max-width: 548px){
+    main>section{
+        flex-basis: 95%;
+    }
+    
+}
+    
