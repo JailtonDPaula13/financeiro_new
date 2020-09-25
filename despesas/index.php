@@ -1,3 +1,3 @@
 <?php
-    header('location: gasto_debito.php');
+    header('location: menu_despesas.php');
 ?>

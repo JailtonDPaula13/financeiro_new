@@ -1,0 +1,180 @@
+h1, h5{
+    font-family: padrao;
+    text-shadow:  2px 2px 4px rgba(0,0,0,0.5);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+header section{
+    flex-basis: 100%;
+    padding:    10px 20px;;
+}
+header section:nth-child(1){
+    text-align: center;
+}
+header section:nth-child(2){
+    text-align: right;
+}
+/*=========================================================*/
+/*=========================================================*/
+h4{
+    margin: 0;
+}
+table{
+    width:  100%;
+    border:  1px solid #000;
+    background: #0580a9;
+}
+main section{
+    padding: 20px;
+}
+main section:nth-child(1){
+    background: rgba(0,0,0,0.5);
+    padding:    5px 20px;
+}
+.clLabelPesquisa{
+    margin: 0;
+    color:  #fff;
+}
+.clIptData{
+    border-radius: 4px;
+    border:        none;
+}
+section>form>button{
+    border-radius: 3px;
+    border:        none;
+    color:         #fff;
+    padding:       3px;
+}
+section>form>button:nth-last-child(2){
+    background: #20ba00;
+}
+section>form>button:nth-last-child(2):hover{
+    background: #2cfe00;
+}
+section>form>button:nth-last-child(1){
+    background: #b00512;
+}
+section>form>button:nth-last-child(1):hover{
+    background: #fb192a;
+}
+table tr{
+    border:     1px solid #fff;
+    text-align: center;
+    color:      #fff;
+}
+table tr td, th{
+  padding: 5px;
+}
+table tr:hover:not(#trStart){
+    background: #45a1bf;
+}
+#trStart{
+    background: #585560;
+}
+main>section:nth-child(2){
+    padding:    5px 30px 0;
+}
+main>section:nth-child(3){
+    padding:    5px 20px 20px 20px;
+}
+#idSectionButtons{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 548px){
+   section>form>button{
+       width:   49%;
+   }
+   .clLabelPesquisa{
+    display: none;
+   }
+    section>form>select{
+        margin: 0 0 5pt 0;
+        width: 100%;
+    }
+    section>form>input{
+        margin: 0 0 5pt 0;
+        width:  49%;
+    }
+    section>form{
+        text-align: center;
+    }
+}
+/*==========================================*/
+/*modal*/
+/*==========================================*/
+#idSectionButtons>div>button{
+    border-radius: 4px;
+    border:        none;
+    color:         #fff;
+    margin:        0;
+    padding:       4px 10px;
+}
+#idSectionButtons>div>button[data-target="#modalCadastro"]{
+    background: green;
+}
+#idSectionButtons>div>button[data-target="#modalCadastro"]:hover{
+    background: #00c200;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#idSectionButtons>div>button[data-target="#modalDelete"]{
+    background: #b00512;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#idSectionButtons>div>button[data-target="#modalDelete"]:hover{
+    background: red;
+}
+#idFormCadastro{
+    text-align: center;
+}
+#alertaCadastro{
+    background:    rgba(0,240,0,0.9);
+    text-align:    center;
+    padding:       5px;
+    border-radius: 3px;
+    display:       none;
+    transition:    0.5s;
+}
+.clLableCadastro{
+    width:            47%;
+    margin:           0.5%;
+    background-color: #0580a9;
+    padding:          5px;
+    color:            #fff;
+    border-radius:    3px;
+    text-align:       left;
+}
+.clLabelEnd{
+    width: 96%;
+}
+form>div>input,form>div>select,form>div>textarea{
+    width:         47%;
+    margin:        0.5%;
+    border-radius: 3px;
+    border:        1px solid #000;
+}
+form>div>textarea{
+    width: 96%;
+}
+.modal-footer>button:nth-child(2){
+    background: green;
+    border:     none;
+}
+.modal-footer>button:nth-child(2):hover{
+    background: #00c200;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.modal-footer>button:nth-child(1){
+    background: #b00512;
+    border:     none;
+}
+.modal-footer>button:nth-child(1):hover{
+   background: red;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.modal-body{
+    text-align: center;
+}

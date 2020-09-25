@@ -12,14 +12,14 @@
 <body>
     <?php
           $caminho[] = '<a href="menu_despesas.php">Menu Despesas</a>';
-          $caminho[] = "<a href='#'> Despesas Débito </a>";
+          $caminho[] = "<a href='#'> Despesas Credito </a>";
           require_once('../alerta/alert.php');
           require_once('../navbar.php'); 
           require_once('../guia.php');
     ?>
     <header>
         <section>
-            <h1>Despesas Débito</h1>
+            <h1>Despesas Crédito</h1>
         </section>
         <section>
             <h4>
@@ -153,111 +153,127 @@
                     <th>Descrição</th>
                     <th>Data</th>
                     <th>Tipo</th>
+                    <th>NP</th>
                     <th><input type="checkbox"></th>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>13/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>13/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>13/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
                 <tr>
                     <td>10,00</td>
                     <td>Almoço</td>
-                    <td>13/10/2020</td>
+                    <td>14/10/20</td>
                     <td>Comida</td>
+                    <td>1/1</td>
                     <td><input type="checkbox"></td>
                 </tr>
             </table>
