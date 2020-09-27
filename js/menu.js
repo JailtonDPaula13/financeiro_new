@@ -1,0 +1,5 @@
+$('main>section').eq(0).bind('click',()=>{location.href = '../despesas/'})
+$('main>section').eq(1).bind('click',()=>{alert('em desenvolvimento')})
+$('main>section').eq(2).bind('click',()=>{alert('em desenvolvimento')})
+$('main>section').eq(3).bind('click',()=>{alert('em desenvolvimento')})
+$('main>section').eq(4).bind('click',()=>{alert('em desenvolvimento')})

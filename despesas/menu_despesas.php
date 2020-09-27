@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="../imagens/moeda.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/alerta.css">
-    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/menu_despesas.css">
 </head>
 <body>
     <?php 
@@ -33,5 +33,6 @@
     </main>
     <script src="../js/jQuery_v3.5.1.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/menu_despesas.js"></script>
 </body>
 </html>

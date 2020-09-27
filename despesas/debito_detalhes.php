@@ -11,6 +11,7 @@
 </head>
 <body>
     <?php
+        $caminho[] = '<a href="menu_despesas.php">Menu Despesas</a>';
         $caminho[] = "<a href='gasto_debito.php'> Despesas Débito </a>";
         $caminho[] = '<a href="#"> Débito Detahes </a>';
         require_once('../alerta/alert.php');

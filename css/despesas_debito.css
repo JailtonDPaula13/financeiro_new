@@ -74,6 +74,9 @@ table tr:hover:not(#trStart){
 #trStart{
     background: #585560;
 }
+tr>td:nth-child(5), tr>th:nth-child(5){
+    display: none;
+}
 main>section:nth-child(2){
     padding:    5px 30px 0;
 }
@@ -83,6 +86,17 @@ main>section:nth-child(3){
 #idSectionButtons{
     display: flex;
     justify-content: space-between;
+}
+div>label{
+    border-radius: 3px;
+    border:        none;
+    color:         #fff;
+    padding:       4px 10px;
+    background:    orange;
+}
+div>label:hover{
+    background: yellow;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 @media(max-width: 548px){
    section>form>button{
