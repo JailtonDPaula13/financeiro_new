@@ -1,8 +1,6 @@
 <?php
     session_start();
-    if(isset($_SESSION['nome'])){
-        header('location:home/central_de_volumes.php');
-    }
+    if(isset($_SESSION['nome'])){header('location:home/central_de_volumes.php');}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

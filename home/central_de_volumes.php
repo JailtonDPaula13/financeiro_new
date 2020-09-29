@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['nome'])){header('location:../');}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -11,7 +15,6 @@
 </head>
 <body>
     <?php 
-          require_once('../alerta/alert.php');
           require_once('../navbar.php');
     ?>
     <main>
@@ -53,5 +56,6 @@
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/menu.js"></script>
     <script src="../js/navbar.js"></script>
+    <?php require_once('../alerta/alert.php'); ?>
 </body>
 </html>

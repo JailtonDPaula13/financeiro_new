@@ -98,12 +98,10 @@ nav{
     color:         #fff;
     cursor:        pointer;
 }   
-.clLoof section button:nth-last-child(2) {
-    background: green;
-}
-.clLoof section button:nth-last-child(1) {
-    background: red;
-}
+.clLoof section button:nth-last-child(2){background: green;}
+.clLoof section button:nth-last-child(2):hover{background: #2cfe00; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.clLoof section button:nth-last-child(1){background: #b00512;}
+.clLoof section button:nth-last-child(1):hover{background: #fb192a; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
 /*==========================================================*/
 /*==========================================================*/
 #divGuia{
