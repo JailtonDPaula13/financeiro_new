@@ -17,7 +17,7 @@ body{
 }
 /*==========================================================*/
 /*==========================================================*/
-aside{
+#idBlcoAlerta{
     position:        absolute;
     top:             0;
 /*    display:         flex;*/
@@ -75,6 +75,7 @@ nav{
 /*==========================================================*/
 .clLoof{
 /*    display: flex;*/
+    justify-content: center;
     display: none;
     position: absolute;
     top: 0;
@@ -88,7 +89,7 @@ nav{
     padding:       10px;
     border-radius: 4px;
     box-shadow:    2px 2px 10px #000;
-    text-align:    center;
+    align-self:    center;
 }
 .clLoof>section>button{
     width:         48%;

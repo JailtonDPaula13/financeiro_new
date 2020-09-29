@@ -52,5 +52,6 @@
     <script src="../js/jQuery_v3.5.1.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/menu.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
 </html>

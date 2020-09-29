@@ -1,0 +1,1 @@
+$('#idLogoff').bind('click',()=>{$('.clLoof').css({'display':'flex'})})
