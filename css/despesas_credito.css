@@ -87,14 +87,14 @@ main>section:nth-child(3){
     display: flex;
     justify-content: space-between;
 }
-div>label{
+section>div>label{
     border-radius: 3px;
     border:        none;
     color:         #fff;
     padding:       4px 10px;
     background:    orange;
 }
-div>label:hover{
+section>div>label:hover{
     background: yellow;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }

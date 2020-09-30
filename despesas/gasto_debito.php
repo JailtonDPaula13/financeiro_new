@@ -1,3 +1,4 @@
+<?php session_start(); if(!isset($_SESSION['nome'])){header('location:../');} ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -272,5 +273,6 @@
     <script src="../js/jQuery_v3.5.1.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/debito.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
 </html>

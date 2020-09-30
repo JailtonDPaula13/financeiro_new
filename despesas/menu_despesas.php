@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['nome'])){header('location:../');}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,6 +12,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/alerta.css">
     <link rel="stylesheet" href="../css/menu_despesas.css">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
 <body>
     <?php 
@@ -34,5 +39,6 @@
     <script src="../js/jQuery_v3.5.1.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/menu_despesas.js"></script>
+    <script src="../js/navbar.js"></script>
 </body>
 </html>
